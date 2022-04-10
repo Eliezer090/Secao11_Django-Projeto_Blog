@@ -21,7 +21,8 @@ Nesta seção foi desenvolvido um blog com as funcionalidades basicas de publica
 219. reCAPTCHA: Finalizando o projeto blog
 
 # Imagens
-<img src="https://github.com/Eliezer090/Secao9_Django_no_Python-Projeto_Agenda/blob/a934ec00ced71f60ed282af10543ce55a5e1a5ea/Prints_GitHub/Captura%20de%20Tela%202022-03-24%20%C3%A0s%2001.11.05.png" width="700" title=""> <br>
+<img src="https://github.com/Eliezer090/Secao11_Django-Projeto_Blog/blob/f6b5eac95ca7bd5389fc1f7913e7f2419975d035/imgs_github/Captura%20de%20Tela%202022-04-10%20%C3%A0s%2000.06.47.png" width="700" title=""> <br>
+<img src="https://github.com/Eliezer090/Secao11_Django-Projeto_Blog/blob/f6b5eac95ca7bd5389fc1f7913e7f2419975d035/imgs_github/Captura%20de%20Tela%202022-04-10%20%C3%A0s%2000.07.10.png" width="700" title=""> <br>
 
 # Links
 [Curso de Python 3 do Básico Ao Avançado (com projetos reais)](https://www.udemy.com/course/python-3-do-zero-ao-avancado/)
