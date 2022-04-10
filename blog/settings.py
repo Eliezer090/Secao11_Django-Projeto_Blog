@@ -24,9 +24,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-(_8^9)ih0rfepu$z&wn5((zk!y@y3wv%u43)hno^8(r-e@vc4b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -128,8 +125,8 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 
 STATIC_URL = 'static/'
-
 STATICFILES_DIRS = [BASE_DIR/'templates/static']
+STATIC_ROOT = BASE_DIR / 'static'
 MEDIA_ROOT = BASE_DIR/'media'
 MEDIA_URL = '/media/'
 
@@ -147,3 +144,13 @@ MESSAGE_TAGS = {
 }
 
 INSTALLED_APPS += ('django_summernote', )
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+
+try:
+    from .local_settings import *
+except:
+    pass

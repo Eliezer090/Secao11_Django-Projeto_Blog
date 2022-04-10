@@ -5,13 +5,17 @@ from django.utils import timezone
 
 
 class Comentario(models.Model):
-    nome_comentario = models.CharField(max_length=100)
-    email_comentario = models.EmailField()
-    comentario = models.TextField()
-    post_comentario = models.ForeignKey(Post, on_delete=models.CASCADE)
-    usuario_comentario = models.ForeignKey(User, on_delete=models.DO_NOTHING)
-    data_comentario = models.DateTimeField(default=timezone.now)
-    publicado_comentario = models.BooleanField(default=False)
+    nome_comentario = models.CharField(max_length=100, verbose_name='Nome')
+    email_comentario = models.EmailField(verbose_name='E-mail')
+    comentario = models.TextField(verbose_name='Comentário')
+    post_comentario = models.ForeignKey(
+        Post, on_delete=models.CASCADE, verbose_name='Postar')
+    usuario_comentario = models.ForeignKey(
+        User, on_delete=models.DO_NOTHING, verbose_name='Usuário', null=True, blank=True)
+    data_comentario = models.DateTimeField(
+        default=timezone.now, verbose_name='Data')
+    publicado_comentario = models.BooleanField(
+        default=False, verbose_name='Publicado')
 
     def __str__(self):
         return self.nome_comentario
