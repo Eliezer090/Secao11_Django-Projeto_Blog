@@ -23,6 +23,8 @@ Nesta seção foi desenvolvido um blog com as funcionalidades basicas de publica
 # Imagens
 <img src="https://github.com/Eliezer090/Secao11_Django-Projeto_Blog/blob/f6b5eac95ca7bd5389fc1f7913e7f2419975d035/imgs_github/Captura%20de%20Tela%202022-04-10%20%C3%A0s%2000.06.47.png" width="700" title=""> <br>
 <img src="https://github.com/Eliezer090/Secao11_Django-Projeto_Blog/blob/f6b5eac95ca7bd5389fc1f7913e7f2419975d035/imgs_github/Captura%20de%20Tela%202022-04-10%20%C3%A0s%2000.07.10.png" width="700" title=""> <br>
+<img src="https://github.com/Eliezer090/Secao11_Django-Projeto_Blog/blob/488e27071473d443de4886caf2e9ade12fdcbfb1/imgs_github/Captura%20de%20Tela%202022-04-10%20%C3%A0s%2000.43.59.png" width="700" title=""> <br>
+
 
 # Links
 [Curso de Python 3 do Básico Ao Avançado (com projetos reais)](https://www.udemy.com/course/python-3-do-zero-ao-avancado/)
